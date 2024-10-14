@@ -1,3 +1,4 @@
 {
-    "files.autoSaveWhenNoErrors": true
+    "files.autoSaveWhenNoErrors": true,
+    "gitdoc.enabled": true
 }
