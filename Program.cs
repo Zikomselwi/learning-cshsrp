@@ -157,7 +157,7 @@ public class customr{
         return base.GetHashCode();
     }
 
-
+/**************************************************************/
 }
     public static void Main()
 
