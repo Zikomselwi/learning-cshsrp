@@ -217,7 +217,7 @@ public class customr{
 
     {
         // lesson Linq in C# 
-var  im=implements.getinfo(DataSeed)
+var  im=implements.getinfo()
 foreach(var i in im){
     Console.WriteLine(i.Name);
 }   
