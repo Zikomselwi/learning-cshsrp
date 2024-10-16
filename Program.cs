@@ -5,6 +5,7 @@ using System.IO;
 using System.Reflection;
 using System.Text;
 using static lesson23_25E;
+using namespace Customer
 
 
 // Using alias for namespaces
@@ -167,8 +168,7 @@ public class customr{
 
     {
         // lesson Linq in C# 
-        implement i= new implement();
-        
+var  im=implement.getinfo(getData.)   
         // هذا  ه مبدا متعددة الاشكال يعني كل كلاس تطبع الدالة تبعها وكلاهم وارثن من كلاس واحد
         lesson23_25 [] lesson23_25s =new lesson23_25[5];
         lesson23_25s[0]=new lesson23_25A();
