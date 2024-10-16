@@ -1,4 +1,4 @@
-namespace Customer{
+
     public class CustomerService 
     {
         public int ID { get; set; }
@@ -7,4 +7,3 @@ namespace Customer{
         public int salary { get; set; }
 
     }
-}

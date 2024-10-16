@@ -1,6 +1,4 @@
-using namespace Customer
-
-public class implement
+public class implements
 {
     public static list<CustomerService> getinfo(list<CustomerService> _List,string Name){
         List<CustomerService> list = new CustomerService();

@@ -5,8 +5,8 @@ using System.IO;
 using System.Reflection;
 using System.Text;
 using static lesson23_25E;
-using namespace Customer
-
+using namespace Customer;
+ using namespace seed;
 
 // Using alias for namespaces
 using PA_A = projectA.teamA;
@@ -168,7 +168,10 @@ public class customr{
 
     {
         // lesson Linq in C# 
-var  im=implement.getinfo(DataSeed.)   
+var  im=
+foreach(var i in im){
+    Console.WriteLine(i.Name);
+}   
         // هذا  ه مبدا متعددة الاشكال يعني كل كلاس تطبع الدالة تبعها وكلاهم وارثن من كلاس واحد
         lesson23_25 [] lesson23_25s =new lesson23_25[5];
         lesson23_25s[0]=new lesson23_25A();
