@@ -166,6 +166,9 @@ public class customr{
     public static void Main()
 
     {
+        // lesson Linq in C# 
+        implement i= new implement();
+        
         // هذا  ه مبدا متعددة الاشكال يعني كل كلاس تطبع الدالة تبعها وكلاهم وارثن من كلاس واحد
         lesson23_25 [] lesson23_25s =new lesson23_25[5];
         lesson23_25s[0]=new lesson23_25A();
