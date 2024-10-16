@@ -168,7 +168,7 @@ public class customr{
 
     {
         // lesson Linq in C# 
-var  im=implement.getinfo(getData.)   
+var  im=implement.getinfo(DataSeed.)   
         // هذا  ه مبدا متعددة الاشكال يعني كل كلاس تطبع الدالة تبعها وكلاهم وارثن من كلاس واحد
         lesson23_25 [] lesson23_25s =new lesson23_25[5];
         lesson23_25s[0]=new lesson23_25A();
