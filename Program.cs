@@ -5,8 +5,7 @@ using System.IO;
 using System.Reflection;
 using System.Text;
 using static lesson23_25E;
-using namespace Customer;
- using namespace seed;
+
 
 // Using alias for namespaces
 using PA_A = projectA.teamA;
@@ -95,6 +94,19 @@ Console.WriteLine("HI");
 
     
 }
+public class implements
+{
+    public static list<CustomerService> getinfo(list<CustomerService> _List,string Name){
+        List<CustomerService> list = new CustomerService();
+        foreach(var item in _List){
+            if(item.Name == Name){
+                list.Add(item);
+            }
+            return list;
+
+        }
+    }
+}
 public class EmployeesD
 {
     public int EmployeeID;
@@ -168,7 +180,7 @@ public class customr{
 
     {
         // lesson Linq in C# 
-var  im=
+var  im=implements.getinfo()
 foreach(var i in im){
     Console.WriteLine(i.Name);
 }   
