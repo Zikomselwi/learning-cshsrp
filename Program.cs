@@ -88,6 +88,8 @@ public partial class Employees2{
 Console.WriteLine("HI");
         }
 
+
+
     public void printName(string name){
         Console.WriteLine(name);
     }
@@ -215,7 +217,7 @@ public class customr{
 
     {
         // lesson Linq in C# 
-var  im=implements.getinfo()
+var  im=implements.getinfo(DataSeed)
 foreach(var i in im){
     Console.WriteLine(i.Name);
 }   
